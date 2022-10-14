@@ -1,5 +1,12 @@
 # Changelog
 
+## \[0.3.2]
+
+- Replace `_` and `.` with `-` in the product name on Linux.
+  - [87ceccd](https://www.github.com/tauri-apps/tauri-action/commit/87ceccdc2e3b936d18cefef2ef03c96361b353ce) fix: fileAppName on Linux. Extends [#293](https://www.github.com/tauri-apps/tauri-action/pull/293) ([#310](https://www.github.com/tauri-apps/tauri-action/pull/310)) on 2022-10-08
+- Fixes usage with `vue-cli-plugin-tauri`.
+  - [f7dcc97](https://www.github.com/tauri-apps/tauri-action/commit/f7dcc97c2dbce3e806c3e72c34ff08fd31dd191e) fix(core): vue-cli-plugin-tauri usage, closes [#288](https://www.github.com/tauri-apps/tauri-action/pull/288) ([#289](https://www.github.com/tauri-apps/tauri-action/pull/289)) on 2022-07-05
+
 ## \[0.3.1]
 
 - Added the `bundleIdentifier` input to modify Tauri's default bundle identifier when initializing a new Tauri app.
