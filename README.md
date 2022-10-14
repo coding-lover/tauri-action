@@ -9,7 +9,7 @@ This GitHub Action has three main usages: test the build pipeline of your Tauri 
 
 ## Testing the Build
 
-```yml
+```yml test
 name: "test-on-pr"
 on: [pull_request]
 
